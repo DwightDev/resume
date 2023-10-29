@@ -1,0 +1,57 @@
+a{
+	text-decoration: none;
+}
+#summary{
+	background: url('https://m.media-amazon.com/images/M/MV5BOWI5OGFkMDEtNjgxNS00ODA1LWE3NjctYzg0YTNmZjUwOGRmXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+strong{
+	color: #040c34;
+}
+
+.resume{
+	box-shadow: 0 0 1px #ccc; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	color: #040c34;
+}
+
+.resume:hover{
+	color: #eee !important;
+	background: linear-gradient(to left, rgba(4, 12, 52, 0.6), rgba(4, 12, 52, 0.9));
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+/*		background-color: rgba(4, 12, 52, 0.7);*/
+	background: linear-gradient(to left, rgba(4, 12, 52, 0.6), rgba(4, 12, 52, 0.9));
+	z-index: 1;
+}
+#summary h5, #summary ul li a, #summary small, .showcase{
+	color: #eee;
+	z-index: 2;
+	position: relative;
+}
+#summary ul li{
+	list-style-type: none;
+}
+.showcase{
+	text-align: center;
+	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.showcase h5{
+	font-size: 20px;
+}
+.title{
+	padding: 3px 30px 3px 10px;
+	background: linear-gradient(to right, rgba(4, 12, 52, 0.3), rgba(4, 12, 52, 0.0));
+}
