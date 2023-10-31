@@ -55,3 +55,20 @@ strong{
 	padding: 3px 30px 3px 10px;
 	background: linear-gradient(to right, rgba(4, 12, 52, 0.3), rgba(4, 12, 52, 0.0));
 }
+
+@media only screen and (max-width: 500px){
+
+	#summary{
+		height: 100% !important;
+	}
+	#resume-content{
+		height: 100% !important;
+		border: 0 !important;
+	}
+	#resume-content .main{
+		padding: 40px 20px 20px 20px !important;
+	}
+	main{
+		height: 100% !important;
+	}
+}
